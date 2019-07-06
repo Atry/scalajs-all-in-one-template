@@ -12,6 +12,7 @@ This repository contains basic structure for a Scala web project with the follow
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [NPM](https://www.npmjs.com/)
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/)
+* [Coursier](https://get-coursier.io/)
 
 Other dependencies can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
@@ -41,8 +42,29 @@ Other dependencies can be found in [sbt settings](https://github.com/Atry/Bindin
      * lib/
        
        The output directory for Webjars dependencies.
+ * js/
+   
+   The Scala.js project to create JS output used in the sbt-web project.
 
+   * build.sbt
+     
+     Sbt settings for the Scala.js project, which contains Scala.js settings, NPM dependencies and type definitions.
+   
+   * src/main/scala/
+     
+     The directory contains Scala.js source files.
+ * project/
+   * plugins.sbt
+     
+     Sbt plugins dependencies.
+   * coursier.sbt
 
+     sbt-coursier settings.
+   * project/
+     * plugins.sbt
+
+       sbt-coursier settings.
+      
 ## Build
 
 Run the following command:
