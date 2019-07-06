@@ -6,8 +6,8 @@ This repository contains basic structure for a Scala web project with the follow
 * [Sbt](https://scala-sbt.org)
 * [Scala.js](https://www.scala-js.org/)
 * [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala)
-* [Font Awesome](https://fontawesome.com/)
 * [sbt-sassify](https://github.com/irundaia/sbt-sassify/) for [Sass](https://sass-lang.com/)
+* [Font Awesome](https://fontawesome.com/) as an example of Sass dependency.
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [webpack](https://webpack.js.org/) and [NPM](https://www.npmjs.com/) (or [YARN](https://yarnpkg.com)).
 * [ScalablyTyped](https://github.com/oyvindberg/ScalablyTyped) for type definition of NPM dependencies.
