@@ -15,6 +15,34 @@ This repository contains basic structure for a Scala web project with the follow
 
 Other dependencies can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
+## Directory Structure
+
+ * web/
+   
+   The sbt-web project for web assets
+   * build.sbt
+     
+     Sbt settings for the sbt-web project, which contains WebJars dependency configurations, including SASS / SCSS dependencies and static resources from external libraries.
+   * src/main/assets/
+         
+     The root directory of static assets sources.
+     * index.html
+       
+       The main page for release mode, which reference uglified version of CSS and JS resources.
+     * devMod.html
+       
+       The main page for development mode, which reference ordinary CSS and JS resources.
+     * style.scss
+       
+       The style sheet used for main page in SCSS syntax, which will be compiled to `style.css` by sbt-web pipeline.
+   * target/web/public/main/
+     
+     The root directory of static assets output.
+     * lib/
+       
+       The output directory for Webjars dependencies.
+
+
 ## Build
 
 Run the following command:
