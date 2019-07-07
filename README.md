@@ -38,7 +38,7 @@ Other libraries and tools can be found in [sbt settings](https://github.com/Atry
        The main page for development mode, which reference ordinary CSS and JS resources.
      * style.scss
        
-       The style sheet used for main page in SCSS syntax, which will be compiled to `style.css` by sbt-web pipeline.
+       The style sheet used by main page in SCSS syntax, which will be compiled to `style.css` by sbt-web pipeline.
    * target/web/public/main/
      
      The root directory of static assets output.
