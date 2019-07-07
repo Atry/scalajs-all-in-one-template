@@ -73,8 +73,8 @@ This template contains settings for a static web project, and you can additional
 
 ## Requirements
 
-* [Java 8+](https://openjdk.java.net/)
-* [sbt](https://www.scala-sbt.org/)
+* [Java](https://openjdk.java.net/) 8+
+* [Sbt](https://www.scala-sbt.org/) launcher
 * [Node.js](https://nodejs.org/) or [nodenv](https://github.com/nodenv/nodenv)
 
 ## How to use this template?
