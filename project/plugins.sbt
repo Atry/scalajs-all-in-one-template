@@ -6,7 +6,7 @@ addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
 addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "6.0.1")
 
-addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.9")
+addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.9-0.6")
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.28")
 
