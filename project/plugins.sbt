@@ -8,14 +8,14 @@ addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "6.0.1")
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.8-0.6")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.26")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.28")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.12")
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
-addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "201904230530")
+addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "201907060829")
 
-addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.14.0")
+addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.15.0-0.6")
 
 addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.1")
 

@@ -29,6 +29,10 @@ addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.fu
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
 
+libraryDependencies += ScalablyTyped.L.`left-pad`
+
+npmDependencies in Compile += "left-pad" -> "1.3.0"
+
 scalaJSUseMainModuleInitializer := true
 
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.7" % Test

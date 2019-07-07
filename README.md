@@ -2,19 +2,20 @@
 
 This repository contains basic structure for a Scala web project with the following technologies built-in:
 
-* [Scala](https://scala-lang.org)
-* [Sbt](https://scala-sbt.org)
-* [Scala.js](https://www.scala-js.org/)
-* [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala)
+* [Sbt](https://scala-sbt.org) is the build tool.
+* [Scala.js](https://www.scala-js.org/) to compile [Scala](https://scala-lang.org) to JavaScript.
+* [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala) for reactive HTML template.
 * [sbt-sassify](https://github.com/irundaia/sbt-sassify/) for [Sass](https://sass-lang.com/)
 * [Font Awesome](https://fontawesome.com/) as an example of Sass dependency.
-* [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping
+* [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping.
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [webpack](https://webpack.js.org/) and [NPM](https://www.npmjs.com/) (or [YARN](https://yarnpkg.com)).
 * [ScalablyTyped](https://github.com/oyvindberg/ScalablyTyped) for type definition of NPM dependencies.
+* [left-pad](https://github.com/left-pad/left-pad/) as an example of NPM dependency.
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/).
-* [Coursier](https://get-coursier.io/)
+* [sbt-buildinfo](https://github.com/sbt/sbt-web) to expose sbt settings to runtime.
+* [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
 
-Other dependencies can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
+Other libraries and tools can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
 ## Directory Structure
 
