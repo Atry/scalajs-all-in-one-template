@@ -22,7 +22,7 @@ object Main {
     *          document.getElementById("buildInfo") should be(null)
     *          }}}
     * 
-    *          When the "Build info" check box is clicked,
+    *          When the "Build info" box is checked,
     * 
     *          {{{
     *          val buildCheckBox = document.getElementById("buildCheckBox").asInstanceOf[html.Input]
