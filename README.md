@@ -15,6 +15,7 @@ This repository contains basic structure for a Scala web project with the follow
 * [sbt-buildinfo](https://github.com/sbt/sbt-web) to expose sbt settings to runtime.
 * [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
 * [sbt-example](https://github.com/ThoughtWorksInc/sbt-example) to generate [ScalaTest](http://www.scalatest.org/) from from examples in Scaladoc comments.
+* [sbt-dynver](https://github.com/dwijnand/sbt-dynver) to determine the build version from git tags.
 
 Other libraries and tools can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
@@ -66,8 +67,12 @@ Other libraries and tools can be found in [sbt settings](https://github.com/Atry
      * plugins.sbt
 
        sbt-coursier settings.
-      
-## Build
+
+## How to use this template?
+
+Just clone this repository, and the following sbt tasks are available.
+
+### Build
 
 Run the following command:
 
@@ -77,7 +82,7 @@ sbt assets
 
 Then visit `web/target/web/public/main/index.html` to browse the main page.
 
-### Development build
+#### Development build
 
 By default, the `assets` command builds Scala.js in release mode. To build this project in development mode
 
@@ -87,7 +92,7 @@ sbt 'set web / scalaJSPipeline / isDevMode := true' assets
 
 Then visit `web/target/web/public/main/devMod.html` to browse the main page in development mode.
 
-## Test
+### Test
 
 Run the following command:
 
