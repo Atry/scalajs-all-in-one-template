@@ -71,6 +71,12 @@ This template contains settings for a static web project, and you can additional
 
        sbt-coursier settings.
 
+## Requirements
+
+* [Java 8+](https://openjdk.java.net/)
+* [sbt](https://www.scala-sbt.org/)
+* [Node.js](https://nodejs.org/) or [nodenv](https://github.com/nodenv/nodenv)
+
 ## How to use this template?
 
 Just clone this repository, and the following sbt tasks are available.
