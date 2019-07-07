@@ -1,7 +1,7 @@
 # The All-in-One Scala.js web project template
 [![Build Status](https://travis-ci.org/Atry/Binding.scala-template.svg?branch=master)](https://travis-ci.org/Atry/Binding.scala-template)
 
-This repository contains the basic structure for a Scala web project with the following technologies built-in:
+This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community since 2019:
 
 * [Sbt](https://scala-sbt.org) is the build tool.
 * [Scala.js](https://www.scala-js.org/) to compile [Scala](https://scala-lang.org) to JavaScript.
