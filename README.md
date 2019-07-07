@@ -1,4 +1,4 @@
-# The template of Binding.scala web project
+# The Binding.scala web project template
 
 This repository contains basic structure for a Scala web project with the following technologies built-in:
 
