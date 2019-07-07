@@ -14,6 +14,7 @@ This repository contains basic structure for a Scala web project with the follow
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/).
 * [sbt-buildinfo](https://github.com/sbt/sbt-web) to expose sbt settings to runtime.
 * [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
+* [sbt-example](https://github.com/ThoughtWorksInc/sbt-example) to generate [ScalaTest](http://www.scalatest.org/) from from examples in Scaladoc comments.
 
 Other libraries and tools can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 

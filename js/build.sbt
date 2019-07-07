@@ -33,8 +33,10 @@ libraryDependencies += ScalablyTyped.L.`left-pad`
 
 npmDependencies in Compile += "left-pad" -> "1.3.0"
 
+requireJsDomEnv in Test := true
+
 scalaJSUseMainModuleInitializer := true
 
-libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.7" % Test
+libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.8" % Test
 
 scalacOptions += "-P:scalajs:sjsDefinedByDefault"
