@@ -1,4 +1,5 @@
 # The Binding.scala web project template
+[![Build Status](https://travis-ci.org/Atry/Binding.scala-template.svg?branch=master)](https://travis-ci.org/Atry/Binding.scala-template)
 
 This repository contains basic structure for a Scala web project with the following technologies built-in:
 
