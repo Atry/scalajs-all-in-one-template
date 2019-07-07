@@ -9,8 +9,6 @@ enablePlugins(BuildInfoPlugin)
 // ScalaJSWeb only works with ScalaJSBundlerPlugin when bundling mode is library-only.
 webpackBundlingMode := BundlingMode.LibraryOnly()
 
-Compile / fastOptJS / relativeSourceMaps := false
-
 libraryDependencies += "com.thoughtworks.binding" %%% "nextanimationframe" % "0.1.0"
 
 libraryDependencies += "com.thoughtworks.binding" %%% "jspromisebinding" % "11.8.0"
