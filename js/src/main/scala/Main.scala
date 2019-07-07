@@ -1,4 +1,3 @@
-// package examples
 import com.thoughtworks.binding._, Binding._
 import org.scalajs.dom._
 import typings.leftDashPadLib.leftDashPadMod
