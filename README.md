@@ -71,7 +71,7 @@ Other libraries and tools can be found in [sbt settings](https://github.com/Atry
 
 Run the following command:
 
-```
+``` sbt
 sbt assets
 ```
 
@@ -81,8 +81,18 @@ Then visit `web/target/web/public/main/index.html` to browse the main page.
 
 By default, the `assets` command builds Scala.js in release mode. To build this project in development mode
 
-```
+``` sbt
 sbt 'set web / scalaJSPipeline / isDevMode := true' assets
 ```
 
 Then visit `web/target/web/public/main/devMod.html` to browse the main page in development mode.
+
+## Test
+
+Run the following command:
+
+``` sbt
+sbt test
+```
+
+Then the examples in Scaladoc comments will be ran by ScalaTest.
