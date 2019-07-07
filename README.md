@@ -13,7 +13,7 @@ This repository is a template of the basic structure for a Scala.js web project,
 * [ScalablyTyped](https://github.com/oyvindberg/ScalablyTyped) for type definition of NPM dependencies.
 * [left-pad](https://github.com/left-pad/left-pad/) as an example of NPM dependency.
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/).
-* [sbt-buildinfo](https://github.com/sbt/sbt-web) to expose sbt settings to runtime.
+* [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) to expose sbt settings to runtime.
 * [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
 * [sbt-example](https://github.com/ThoughtWorksInc/sbt-example) to generate [ScalaTest](http://www.scalatest.org/) from from examples in Scaladoc comments.
 * [sbt-dynver](https://github.com/dwijnand/sbt-dynver) to determine the build version from git tags.
