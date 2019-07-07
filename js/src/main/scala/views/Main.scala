@@ -60,7 +60,6 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
-    // typings.padLib.padLibRequire
     dom.render(document.body, rootView)
   }
 
