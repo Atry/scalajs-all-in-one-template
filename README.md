@@ -79,7 +79,7 @@ Just clone this repository, and the following sbt tasks are available.
 
 Run the following command:
 
-``` sbt
+``` shell
 sbt assets
 ```
 
@@ -89,8 +89,8 @@ Then visit `web/target/web/public/main/index.html` to browse the main page.
 
 By default, the `assets` command builds Scala.js in release mode. To build this project in development mode
 
-``` sbt
-sbt 'set web / scalaJSPipeline / isDevMode := true' assets
+``` shell
+sbt "set web / scalaJSPipeline / isDevMode := true" assets
 ```
 
 Then visit `web/target/web/public/main/devMod.html` to browse the main page in development mode.
@@ -99,7 +99,7 @@ Then visit `web/target/web/public/main/devMod.html` to browse the main page in d
 
 Run the following command:
 
-``` sbt
+``` shell
 sbt test
 ```
 
