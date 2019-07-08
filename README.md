@@ -1,5 +1,5 @@
 # The All-in-One Scala.js static web project template
-[![Build Status](https://travis-ci.org/Atry/Binding.scala-template.svg?branch=master)](https://travis-ci.org/Atry/Binding.scala-template)
+[![Build Status](https://travis-ci.org/Atry/scalajs-all-in-one-template.svg?branch=master)](https://travis-ci.org/Atry/scalajs-all-in-one-template)
 
 This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community since 2019:
 
