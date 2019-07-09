@@ -1,7 +1,7 @@
 package views
 import com.thoughtworks.binding._, Binding._
 import org.scalajs.dom._
-import typings.leftDashPadLib.{leftDashPadMod => leftPad}
+import typings.padLib.{padMod => pad}
 import buildinfo.BuildInfo
 
 object Main {
@@ -47,10 +47,10 @@ object Main {
       {
         if (showBuildInfo.bind) {
           <pre id="buildInfo">
-            {leftPad("Name", 15)} {BuildInfo.name}
-            {leftPad("Version", 15)} {BuildInfo.version}
-            {leftPad("Scala Version", 15)} {BuildInfo.scalaVersion}
-            {leftPad("Sbt Version", 15)} {BuildInfo.sbtVersion}
+            {pad(15, "Name")} {BuildInfo.name}
+            {pad(15, "Version")} {BuildInfo.version}
+            {pad(15, "Scala Version")} {BuildInfo.scalaVersion}
+            {pad(15, "Sbt Version")} {BuildInfo.sbtVersion}
           </pre>
         } else {
           <!-- Build info is hidden -->
