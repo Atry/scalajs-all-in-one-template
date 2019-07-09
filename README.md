@@ -20,7 +20,7 @@ This repository is a template of the basic structure for a Scala.js web project,
 
 Other libraries and tools can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
-This template contains settings for a static web project, and you can additionally configure Play or Akka HTTP dependencies in `web/build.sbt` to turn it into an dynamic web project.
+This template contains settings for a static web project, and you can additionally configure Play or Akka HTTP dependencies in `web/build.sbt` to turn it into a dynamic web project.
 
 ## Directory Structure
 
