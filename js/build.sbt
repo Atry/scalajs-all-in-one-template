@@ -27,9 +27,9 @@ addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.fu
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
 
-libraryDependencies += ScalablyTyped.L.`left-pad`
+libraryDependencies += ScalablyTyped.P.pad
 
-npmDependencies in Compile += "left-pad" -> "1.3.0"
+npmDependencies in Compile += "pad" -> "2.3.0"
 
 requireJsDomEnv in Test := true
 

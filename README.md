@@ -11,7 +11,7 @@ This repository is a template of the basic structure for a Scala.js web project,
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping.
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [webpack](https://webpack.js.org/) and [NPM](https://www.npmjs.com/) (or [YARN](https://yarnpkg.com)).
 * [ScalablyTyped](https://github.com/oyvindberg/ScalablyTyped) for type definition of NPM dependencies.
-* [left-pad](https://github.com/left-pad/left-pad/) as an example of NPM dependency.
+* [pad](https://pad-project.js.org/) as an example of NPM dependency.
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/).
 * [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) to expose sbt settings to runtime.
 * [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
