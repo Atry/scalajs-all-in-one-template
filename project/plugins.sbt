@@ -13,7 +13,7 @@ addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.29")
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.13")
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
-addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "201907060829")
+addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "201911180530")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.15.0-0.6")
 
