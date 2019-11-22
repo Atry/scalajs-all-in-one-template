@@ -12,13 +12,13 @@ webpackBundlingMode := BundlingMode.LibraryOnly()
 
 libraryDependencies += "com.thoughtworks.binding" %%% "nextanimationframe" % "0.1.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "jspromisebinding" % "11.8.1"
+libraryDependencies += "com.thoughtworks.binding" %%% "jspromisebinding" % "11.9.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "11.8.1"
+libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "11.9.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "dom" % "11.8.1"
+libraryDependencies += "com.thoughtworks.binding" %%% "dom" % "11.9.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "route" % "11.8.1"
+libraryDependencies += "com.thoughtworks.binding" %%% "route" % "11.9.0"
 
 libraryDependencies += "com.thoughtworks.binding" %%% "latestevent" % "0.3.0"
 
