@@ -30,7 +30,7 @@ resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
 
 libraryDependencies += ScalablyTyped.P.pad
 
-npmDependencies in Compile += "pad" -> "2.3.0"
+npmDependencies in Compile += "pad" -> "3.2.0"
 
 requireJsDomEnv in Test := true
 
