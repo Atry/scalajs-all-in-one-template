@@ -3,6 +3,8 @@ import com.thoughtworks.binding._, Binding._
 import org.scalajs.dom._
 import typings.pad.{padMod => pad}
 import buildinfo.BuildInfo
+import org.lrng.binding.html, html._
+import org.scalajs.dom.raw._
 
 object Main {
 
@@ -12,7 +14,7 @@ object Main {
     *          {{{
     *          import org.scalajs.dom._
     *          import com.thoughtworks.binding._
-    *          //val container = document.createElement("div")
+    *          import org.scalajs.dom.raw.HTMLInputElement
     *          dom.render(document.body, views.Main.rootView)
     *          }}}
     *          
@@ -25,7 +27,7 @@ object Main {
     *          When the "Build info" box is checked,
     * 
     *          {{{
-    *          val buildCheckBox = document.getElementById("buildCheckBox").asInstanceOf[html.Input]
+    *          val buildCheckBox = document.getElementById("buildCheckBox").asInstanceOf[HTMLInputElement]
     *          buildCheckBox.checked = true
     *          buildCheckBox.onchange(null)
     *          }}}
@@ -36,13 +38,14 @@ object Main {
     *          document.getElementById("buildInfo").innerHTML should not be empty
     *          }}}
     */
-  @dom
+  @html
   def rootView: Binding[Node] = {
     val showBuildInfo = Var(false)
+    lazy val buildCheckBox: NodeBinding[HTMLInputElement] = <input id="buildCheckBox" type="checkbox" onchange={ event: Event =>
+      showBuildInfo.value = buildCheckBox.value.checked
+    }/>;
     <form>
-      <input id="buildCheckBox" type="checkbox" onchange={ _: Event =>
-        showBuildInfo.value = buildCheckBox.checked
-      }/>
+      { buildCheckBox }
       <label for="buildCheckBox">Build <span class="info" data:aria-label="i"></span>nfo</label>
       {
         if (showBuildInfo.bind) {
