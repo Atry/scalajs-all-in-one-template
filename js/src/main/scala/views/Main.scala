@@ -42,7 +42,7 @@ object Main {
   def rootView: Binding[Node] = {
     val showBuildInfo = Var(false)
     lazy val buildCheckBox: NodeBinding[HTMLInputElement] = {
-      <input id="buildCheckBox" type="checkbox" onchange={ event: Event =>
+      <input id="buildCheckBox" type="checkbox" onchange={ _: Event =>
         showBuildInfo.value = buildCheckBox.value.checked
       }/>
     }
