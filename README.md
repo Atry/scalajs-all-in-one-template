@@ -1,6 +1,6 @@
 # All-in-One Scala.js Static Web Project Template
 [![Build Status](https://travis-ci.org/Atry/scalajs-all-in-one-template.svg?branch=master)](https://travis-ci.org/Atry/scalajs-all-in-one-template)
-[![Open in Gitpod](https://img.shields.io/badge/Gitpod-open%20in%20online%20IDE-%230092CF.svg )](https://gitpod.io/#https://github.com/Atry/scalajs-all-in-one-template)
+[![Open in Gitpod](https://img.shields.io/badge/Gitpod-open%20in%20an%20online%20IDE-%230092CF.svg )](https://gitpod.io/#https://github.com/Atry/scalajs-all-in-one-template)
 
 This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community since 2019:
 
