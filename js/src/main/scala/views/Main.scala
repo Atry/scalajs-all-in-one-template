@@ -1,7 +1,7 @@
 package views
 import com.thoughtworks.binding._, Binding._
 import org.scalajs.dom._
-import typings.padLib.{padMod => pad}
+import typings.pad.{padMod => pad}
 import buildinfo.BuildInfo
 
 object Main {
