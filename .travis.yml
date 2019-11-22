@@ -23,5 +23,3 @@ cache:
     - $HOME/.sbt/boot/
     - $HOME/.coursier/
 
-before_script:
-
