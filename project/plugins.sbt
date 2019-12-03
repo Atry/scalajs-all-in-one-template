@@ -4,7 +4,7 @@ addSbtPlugin("com.dwijnand" % "sbt-dynver" % "4.0.0")
 
 addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
-addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "6.0.1")
+addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "7.0.0")
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.9-0.6")
 
