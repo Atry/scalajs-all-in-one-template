@@ -6,7 +6,8 @@ This repository is a template of the basic structure for a Scala.js web project,
 
 * [Sbt](https://scala-sbt.org) is the build tool.
 * [Scala.js](https://www.scala-js.org/) to compile [Scala](https://scala-lang.org) to JavaScript.
-* [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala) for reactive HTML templating.
+* [html.scala](https://github.com/GlasslabGames/html.scala/) for reactive HTML templating.
+* [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala) for data-binding.
 * [sbt-sassify](https://github.com/irundaia/sbt-sassify/) for compiling [Sass](https://sass-lang.com/) to CSS.
 * [Font Awesome](https://fontawesome.com/) as an example of Sass dependency.
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping.
