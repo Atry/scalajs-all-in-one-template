@@ -8,4 +8,4 @@ enablePlugins(BuildInfoPlugin)
 
 pipelineStages in Assets += scalaJSPipeline
 
-libraryDependencies += "org.webjars" % "font-awesome" % "5.11.2"
+libraryDependencies += "org.webjars" % "font-awesome" % "5.12.0"
