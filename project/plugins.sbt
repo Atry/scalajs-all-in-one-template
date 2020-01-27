@@ -1,4 +1,4 @@
-addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "7.1.1")
+addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "7.2.0")
 
 addSbtPlugin("com.dwijnand" % "sbt-dynver" % "4.0.0")
 
@@ -6,14 +6,14 @@ addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
 addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "7.0.0")
 
-addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.9-0.6")
+addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.10-0.6")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.31")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.32")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.13")
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
-addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "202001240947")
+addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "202001160932")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.15.0-0.6")
 
