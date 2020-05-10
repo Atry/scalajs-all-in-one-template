@@ -41,6 +41,6 @@ requireJsDomEnv in Test := true
 
 scalaJSUseMainModuleInitializer := true
 
-libraryDependencies += "org.scalatest" %%% "scalatest" % "3.1.1" % Test
+libraryDependencies += "org.scalatest" %%% "scalatest" % "3.1.2" % Test
 
 scalacOptions += "-P:scalajs:sjsDefinedByDefault"
