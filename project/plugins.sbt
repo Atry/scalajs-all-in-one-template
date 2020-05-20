@@ -10,7 +10,7 @@ addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11-0.6")
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.32")
 
-addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.13")
+addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.5.1")
 
 resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
 addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "202001240947")
