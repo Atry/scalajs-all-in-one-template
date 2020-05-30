@@ -14,8 +14,9 @@ object Main {
     *          {{{
     *          import org.scalajs.dom._
     *          import com.thoughtworks.binding._
+    *          import org.lrng.binding.html
     *          import org.scalajs.dom.raw.HTMLInputElement
-    *          dom.render(document.body, views.Main.rootView)
+    *          html.render(document.body, views.Main.rootView)
     *          }}}
     *          
     *          then it should not contain the build information in the beginning.
@@ -65,7 +66,7 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
-    dom.render(document.body, rootView)
+    html.render(document.body, rootView)
   }
 
 }
