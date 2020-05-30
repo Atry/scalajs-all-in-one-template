@@ -6,16 +6,18 @@ addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
 addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "7.0.1")
 
-addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11-0.6")
+addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.33")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.1.0")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.5.1")
 
-resolvers += Resolver.bintrayRepo("oyvindberg", "ScalablyTyped")
-addSbtPlugin("org.scalablytyped" % "sbt-scalablytyped" % "202002160229")
+resolvers += Resolver.bintrayRepo("oyvindberg", "converter")
 
-addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.15.0-0.6")
+// for Scala.js 1.x.x
+addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta13")
+
+addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.18.0")
 
 addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.1")
 
