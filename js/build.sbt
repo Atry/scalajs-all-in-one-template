@@ -16,7 +16,7 @@ libraryDependencies += "org.lrng.binding" %%% "html" % "1.0.3"
 
 libraryDependencies += "com.thoughtworks.binding" %%% "jspromisebinding" % "12.0.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "12.0.0-M1"
+libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "12.0.0"
 
 libraryDependencies += "com.thoughtworks.binding" %%% "route" % "12.0.0"
 
