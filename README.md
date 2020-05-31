@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/Atry/scalajs-all-in-one-template.svg?branch=master)](https://travis-ci.org/Atry/scalajs-all-in-one-template)
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-open%20in%20an%20online%20IDE-%230092CF.svg )](https://gitpod.io/#https://github.com/Atry/scalajs-all-in-one-template)
 
-This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community since 2019:
+This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community until 2020:
 
 * [Sbt](https://scala-sbt.org) is the build tool.
 * [Scala.js](https://www.scala-js.org/) to compile [Scala](https://scala-lang.org) to JavaScript.
@@ -12,7 +12,7 @@ This repository is a template of the basic structure for a Scala.js web project,
 * [Font Awesome](https://fontawesome.com/) as an example of Sass dependency.
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping.
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [webpack](https://webpack.js.org/) and [NPM](https://www.npmjs.com/) (or [YARN](https://yarnpkg.com)).
-* [ScalablyTyped](https://github.com/oyvindberg/ScalablyTyped) for type definition of NPM dependencies.
+* [ScalablyTyped](https://scalablytyped.org/) for type definition of NPM dependencies.
 * [pad](https://pad-project.js.org/) as an example of NPM dependency.
 * [sbt-web](https://github.com/sbt/sbt-web) for [WebJars](https://www.webjars.org/).
 * [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) to expose sbt settings to runtime.
