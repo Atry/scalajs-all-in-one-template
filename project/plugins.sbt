@@ -23,4 +23,4 @@ addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.1")
 
 addSbtPlugin("com.thoughtworks.sbt-scala-js-map" % "sbt-scala-js-map" % "4.0.0")
 
-addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.9.0")
+addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.10.0")
