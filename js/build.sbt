@@ -28,6 +28,6 @@ requireJsDomEnv in Test := true
 
 scalaJSUseMainModuleInitializer := true
 
-libraryDependencies += "org.scalatest" %%% "scalatest" % "3.1.2" % Test
+libraryDependencies += "org.scalatest" %%% "scalatest" % "3.1.3" % Test
 
 scalacOptions += "-Ymacro-annotations"
