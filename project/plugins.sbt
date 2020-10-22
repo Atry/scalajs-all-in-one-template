@@ -17,7 +17,7 @@ resolvers += Resolver.bintrayRepo("oyvindberg", "converter")
 // for Scala.js 1.x.x
 addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta13")
 
-addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.18.0")
+addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.20.0")
 
 addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.1")
 
