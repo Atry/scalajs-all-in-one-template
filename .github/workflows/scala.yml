@@ -22,8 +22,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: "${{ steps.nodenv.outputs.node-version }}"
-    - name: Run tests
-      run: sbt test
     - name: Cache SBT
       uses: actions/cache@v2
       with:
@@ -33,3 +31,5 @@ jobs:
           ~/.coursier/
 
         key: ${{ runner.os }}-sbt-${{ hashFiles('**/build.sbt') }}
+    - name: Run tests
+      run: sbt test
