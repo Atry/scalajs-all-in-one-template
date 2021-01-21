@@ -20,7 +20,7 @@ libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "12.0.0-
 
 libraryDependencies += "com.thoughtworks.binding" %%% "route" % "12.0.0"
 
-libraryDependencies += "com.thoughtworks.binding" %%% "bindable" % "2.0.0-M1"
+libraryDependencies += "com.thoughtworks.binding" %%% "bindable" % "2.0.0"
 
 npmDependencies in Compile += "pad" -> "2.3 <="
 
