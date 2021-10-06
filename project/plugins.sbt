@@ -8,7 +8,7 @@ addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "7.0.1")
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.4.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.7.1")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.5.1")
 
