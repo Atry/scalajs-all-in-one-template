@@ -37,3 +37,5 @@ libraryDependencies += "org.scalatest" %%% "scalatest" % "3.2.10" % Test
 scalacOptions += "-Ymacro-annotations"
 
 ThisBuild / libraryDependencySchemes += "org.scala-js" %% "scalajs-dom_sjs1" % VersionScheme.Always
+
+stEnableScalaJsDefined := Selection.All
