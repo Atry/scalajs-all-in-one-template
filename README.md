@@ -9,6 +9,7 @@ This repository is a template of the basic structure for a Scala.js web project,
 * [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala) for data-binding.
 * [sbt-sassify](https://github.com/irundaia/sbt-sassify/) for compiling [Sass](https://sass-lang.com/) to CSS.
 * [Font Awesome](https://fontawesome.com/) as an example of Sass dependency.
+* [Bootstrap](https://getbootstrap.com/) for responsive UI components.
 * [sbt-scala-js-map](https://github.com/ThoughtWorksInc/sbt-scala-js-map) for source mapping.
 * [scalajs-bundler](https://github.com/scalacenter/scalajs-bundler) for [webpack](https://webpack.js.org/) and [NPM](https://www.npmjs.com/) (or [YARN](https://yarnpkg.com)).
 * [ScalablyTyped](https://scalablytyped.org/) for type definition of NPM dependencies.

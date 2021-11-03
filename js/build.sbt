@@ -22,7 +22,11 @@ libraryDependencies += "com.thoughtworks.binding" %%% "route" % "12.0.0"
 
 libraryDependencies += "com.thoughtworks.binding" %%% "bindable" % "2.0.0"
 
-npmDependencies in Compile += "pad" -> "2.3 <="
+Compile / npmDependencies += "pad" -> "2.3 <="
+
+Compile / npmDependencies += "bootstrap" -> "5.1.3"
+
+Compile / npmDependencies += "@types/bootstrap" -> "5.1.6"
 
 requireJsDomEnv in Test := true
 

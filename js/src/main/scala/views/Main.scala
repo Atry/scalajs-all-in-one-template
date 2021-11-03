@@ -42,13 +42,15 @@ object Main {
   def rootView: Binding[Node] = {
     val showBuildInfo = Var(false)
     lazy val buildCheckBox: NodeBinding[HTMLInputElement] = {
-      <input id="buildCheckBox" type="checkbox" onchange={ _: Event =>
+      <input class="form-check-input" id="buildCheckBox" data:role="switch" type="checkbox" onchange={ _: Event =>
         showBuildInfo.value = buildCheckBox.value.checked
       }/>
     }
     <form>
-      { buildCheckBox }
-      <label for="buildCheckBox">Build <span class="info" data:aria-label="i"></span>nfo</label>
+      <div class="form-check form-switch">
+        { buildCheckBox }
+        <label class="form-check-label" for="buildCheckBox">Build <span class="info" data:aria-label="i"></span>nfo</label>
+      </div>
       {
         if (showBuildInfo.bind) {
           <pre id="buildInfo">
@@ -65,6 +67,7 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
+    typings.bootstrap.bootstrapRequire
     html.render(document.body, rootView)
   }
 

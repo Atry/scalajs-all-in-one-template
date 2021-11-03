@@ -1,6 +1,7 @@
 $fa-font-path: "lib/font-awesome/webfonts";
 @import "lib/font-awesome/scss/fontawesome.scss";
 @import "lib/font-awesome/scss/solid.scss";
+@import "lib/bootstrap/scss/bootstrap.scss";
 
 .info {
   @extend %fa-icon;
