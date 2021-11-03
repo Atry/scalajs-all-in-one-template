@@ -84,17 +84,17 @@ Run the following command:
 sbt assets
 ```
 
-Then visit `web/target/web/public/main/index.html` to browse the main page.
+Then visit `web/target/web/public/main/devMod.html` to browse the main page.
 
-#### Development build
+#### Release mode build
 
-By default, the `assets` command builds Scala.js in release mode. To build this project in development mode
+By default, the `assets` command builds Scala.js in development mode. To build this project in release mode
 
 ``` shell
-sbt "set web / scalaJSPipeline / isDevMode := true" assets
+sbt "set scalaJSStage := FullOptStage" assets
 ```
 
-Then visit `web/target/web/public/main/devMod.html` to browse the main page in development mode.
+Then visit `web/target/web/public/main/index.html` to browse the main page in release mode.
 
 ### Test
 
