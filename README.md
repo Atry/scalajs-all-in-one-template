@@ -1,5 +1,6 @@
 # All-in-One Scala.js Static Web Project Template
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-open%20in%20an%20online%20IDE-%230092CF.svg )](https://gitpod.io/#https://github.com/Atry/scalajs-all-in-one-template)
+[![Scala CI](https://github.com/Atry/scalajs-all-in-one-template/actions/workflows/scala.yml/badge.svg)](https://github.com/Atry/scalajs-all-in-one-template/actions/workflows/scala.yml)
 
 This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community until 2021:
 
