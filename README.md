@@ -38,10 +38,10 @@ This template contains settings for a static web project, and you can additional
      The root directory of static assets sources.
      * index.html
        
-       The main page in release mode, which reference uglified version of CSS and JS resources.
+       The main page in release mode, which references uglified version of CSS and JS resources.
      * devMod.html
        
-       The main page in development mode, which reference indented CSS and JS resources.
+       The main page in development mode, which references indented CSS and JS resources.
      * style.scss
        
        The style sheet used by main page in SCSS syntax, which will be compiled to `style.css` by a sbt-web pipeline.
