@@ -38,7 +38,7 @@ This template contains settings for a static web project, and you can additional
      The root directory of static assets sources.
      * index.html
        
-       The main page in release mode, which references uglified version of CSS and JS resources.
+       The main page in release mode, which references uglified CSS and JS resources.
      * devMod.html
        
        The main page in development mode, which references indented CSS and JS resources.
