@@ -14,7 +14,7 @@ libraryDependencies += "org.scala-js" %% "scalajs-env-nodejs" % "1.2.1"
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.5.1")
 
-addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta36")
+addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta38")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.20.0")
 
