@@ -1,7 +1,7 @@
 package views
 import com.thoughtworks.binding._, Binding._
 import org.lrng.binding.html, html._
-import org.scalajs.dom._, raw._
+import org.scalajs.dom._
 import typings.pad.{mod => pad}
 import buildinfo.BuildInfo
 
