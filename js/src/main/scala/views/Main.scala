@@ -14,7 +14,7 @@ object Main {
     *          import org.scalajs.dom._
     *          import com.thoughtworks.binding._
     *          import org.lrng.binding.html
-    *          import org.scalajs.dom.raw.HTMLInputElement
+    *          import org.scalajs.dom.HTMLInputElement
     *          html.render(document.body, views.Main.rootView)
     *          }}}
     *          
