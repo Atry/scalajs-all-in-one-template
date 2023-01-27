@@ -1,4 +1,4 @@
-addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "8.2.2")
+addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "8.2.5")
 
 addSbtPlugin("com.dwijnand" % "sbt-dynver" % "4.1.1")
 
