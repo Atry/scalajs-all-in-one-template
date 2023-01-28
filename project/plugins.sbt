@@ -1,20 +1,22 @@
-addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "8.2.2")
+addSbtPlugin(
+  "com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "8.2.5"
+)
 
 addSbtPlugin("com.dwijnand" % "sbt-dynver" % "4.1.1")
 
 addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
-addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "9.2.0")
+addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "9.2.1")
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.12.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.13.0")
 
 libraryDependencies += "org.scala-js" %% "scalajs-env-nodejs" % "1.4.0"
 
 addSbtPlugin("io.github.irundaia" % "sbt-sassify" % "1.5.2")
 
-addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta40")
+addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta41")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.21.1")
 
