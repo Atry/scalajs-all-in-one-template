@@ -2,7 +2,7 @@
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-open%20in%20an%20online%20IDE-%230092CF.svg )](https://gitpod.io/#https://github.com/Atry/scalajs-all-in-one-template)
 [![Scala CI](https://github.com/Atry/scalajs-all-in-one-template/actions/workflows/scala.yml/badge.svg)](https://github.com/Atry/scalajs-all-in-one-template/actions/workflows/scala.yml)
 
-This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community until 2021:
+This repository is a template of the basic structure for a Scala.js web project, contains all the best technologies in Scala.js community until 2023:
 
 * [Sbt](https://scala-sbt.org) is the build tool.
 * [Scala.js](https://www.scala-js.org/) to compile [Scala](https://scala-lang.org) to JavaScript.
@@ -20,6 +20,8 @@ This repository is a template of the basic structure for a Scala.js web project,
 * [Coursier](https://get-coursier.io/) for fast downloading Maven and ivy dependencies.
 * [sbt-example](https://github.com/ThoughtWorksInc/sbt-example) to generate [ScalaTest](http://www.scalatest.org/) from from examples in Scaladoc comments.
 * [sbt-dynver](https://github.com/dwijnand/sbt-dynver) to determine the build version from git tags.
+
+Note that the default branch of this repository is written in Scala 3. Check out the [scala-2.13](https://github.com/Atry/scalajs-all-in-one-template/tree/scala-2.13) branch for a project template in Scala 2.13.
 
 Other libraries and tools can be found in [sbt settings](https://github.com/Atry/Binding.scala-template/search?q=extension%3Asbt&unscoped_q=extension%3Asbt).
 
