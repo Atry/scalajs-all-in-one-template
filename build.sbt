@@ -4,4 +4,4 @@ lazy val web = project.settings(
   scalaJSProjects += js,
 )
 
-ThisBuild / scalaVersion := "2.13.7"
+ThisBuild / scalaVersion := "3.2.2"

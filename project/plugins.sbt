@@ -8,7 +8,7 @@ addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.2")
 
 addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "9.2.1")
 
-addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.11")
+addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.2.0")
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.13.0")
 

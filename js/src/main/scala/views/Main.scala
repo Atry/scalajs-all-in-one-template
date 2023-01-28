@@ -1,11 +1,11 @@
 package views
-import com.thoughtworks.binding._, Binding._
-import org.lrng.binding.html, html._
-import org.scalajs.dom._
+import com.thoughtworks.binding.*, Binding.*
+import com.yang_bo.html.*
+import org.scalajs.dom.*
 import typings.pad.{mod => pad}
 import buildinfo.BuildInfo
 
-object Main {
+object Main:
 
   /** The root view of the main page.
     *
@@ -13,7 +13,7 @@ object Main {
     *          {{{
     *          import org.scalajs.dom._
     *          import com.thoughtworks.binding._
-    *          import org.lrng.binding.html
+    *          import com.yang_bo.html
     *          import org.scalajs.dom.HTMLInputElement
     *          html.render(document.body, views.Main.rootView)
     *          }}}
@@ -38,37 +38,35 @@ object Main {
     *          document.getElementById("buildInfo").innerHTML should not be empty
     *          }}}
     */
-  @html
-  def rootView: Binding[Node] = {
+  def rootView: Binding[Node] =
     val showBuildInfo = Var(false)
-    lazy val buildCheckBox: NodeBinding[HTMLInputElement] = {
-      <input class="form-check-input" id="buildCheckBox" data:role="switch" type="checkbox" onchange={ _: Event =>
+    lazy val buildCheckBox: Binding.Stable[HTMLInputElement] = 
+      html"""<input class="form-check-input" id="buildCheckBox" role="switch" type="checkbox" onchange=${ (_: Event) =>
         showBuildInfo.value = buildCheckBox.value.checked
-      }/>
-    }
-    <form>
+      }/>"""
+    html"""<form>
       <div class="form-check form-switch">
-        { buildCheckBox }
-        <label class="form-check-label" for="buildCheckBox">Build <span class="info" data:aria-label="i"></span>nfo</label>
+        ${ buildCheckBox }
+        <label class="form-check-label" for="buildCheckBox">Build <span class="info" aria-label="i"></span>nfo</label>
       </div>
-      {
+      ${
         if (showBuildInfo.bind) {
-          <pre id="buildInfo">
-            {pad(15, "Name")} {BuildInfo.name}
-            {pad(15, "Version")} {BuildInfo.version}
-            {pad(15, "Scala Version")} {BuildInfo.scalaVersion}
-            {pad(15, "Sbt Version")} {BuildInfo.sbtVersion}
-          </pre>
+          html"""<pre id="buildInfo">
+            ${pad(15, "Name")} ${BuildInfo.name}
+            ${pad(15, "Version")} ${BuildInfo.version}
+            ${pad(15, "Scala Version")} ${BuildInfo.scalaVersion}
+            ${pad(15, "Sbt Version")} ${BuildInfo.sbtVersion}
+          </pre>""".bind
         } else {
-          <!-- Build info is hidden -->
+          html"""<!-- Build info is hidden -->"""
         }
       }
-    </form>
-  }
+    </form>"""
+  end rootView
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit =
     typings.bootstrap.bootstrapRequire
-    html.render(document.body, rootView)
-  }
+    render(document.body, rootView)
+  end main
 
-}
+end Main

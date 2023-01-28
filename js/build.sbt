@@ -12,15 +12,7 @@ enablePlugins(ScalablyTypedConverterPlugin)
 // See https://github.com/scalacenter/scalajs-bundler/pull/288#issuecomment-476494335 for discussion of this problem
 webpackBundlingMode := BundlingMode.LibraryOnly()
 
-libraryDependencies += "com.yang-bo" %%% "html" % "2.0.0"
-
-libraryDependencies += "com.thoughtworks.binding" %%% "jspromisebinding" % "12.0.0"
-
-libraryDependencies += "com.thoughtworks.binding" %%% "futurebinding" % "12.0.0"
-
-libraryDependencies += "com.thoughtworks.binding" %%% "route" % "12.0.0"
-
-libraryDependencies += "com.thoughtworks.binding" %%% "bindable" % "2.1.3"
+libraryDependencies += "com.yang-bo" %%% "html" % "3.0.1"
 
 Compile / npmDependencies += "pad" -> "2.3 <="
 
