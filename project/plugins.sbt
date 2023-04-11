@@ -10,7 +10,7 @@ addSbtPlugin("com.thoughtworks.example" % "sbt-example" % "9.2.1")
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.2.0")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.13.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.13.1")
 
 libraryDependencies += "org.scala-js" %% "scalajs-env-nodejs" % "1.4.0"
 
