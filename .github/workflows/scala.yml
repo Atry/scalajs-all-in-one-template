@@ -21,6 +21,7 @@ jobs:
         with:
           java-version: "11"
           distribution: temurin
+      - uses: sbt/setup-sbt@v1
       - id: nodenv
         uses: nodenv/actions/node-version@v2
       - uses: actions/setup-node@v1
