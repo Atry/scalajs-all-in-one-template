@@ -1,0 +1,3 @@
+-J-Xss5m
+-J-Xmx7g
+-J-XX:MaxMetaspaceSize=9999g
